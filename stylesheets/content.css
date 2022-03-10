@@ -44,17 +44,53 @@ height: 768px;
   top: 10px;
   left: 10px;
 }
-.clock
-{
+.clock {
   position: relative;
   color:#FFFFFF;
   font-family: tahoma;
   font-size: 34px;
-  width: 87px;
-  height: 41px;
-  top: -55px;
-  margin-left: 1257px;
+  top: -60px;
+  margin-left: 1238px;
 }
+}
+.clock ul {
+  margin: 0 auto;
+  list-style: none;
+}
+.clock ul li {
+  display: inline;
+}
+.clock ul li#separator {
+  -moz-animation: myfade 1s ease infinite;
+  -webkit-animation: myfade 1s ease infinite;
+}
+
+/* Animation */
+@-webkit-keyframes myfade {
+  0% {
+    opacity: 1.0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1.0;
+  }
+}
+
+@-moz-keyframes myfade {
+  0% {
+    opacity: 1.0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1.0;
+  };
+}
+
+
 .ru
 {
   position: relative;
@@ -64,7 +100,7 @@ height: 768px;
   width: 39px;
   height: 41px;
   top: -94px;
-  margin-left: 1194px;
+  margin-left: 1175px;
 }
 .text1
 {
