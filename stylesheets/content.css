@@ -1,0 +1,95 @@
+body
+{
+background-color: #323392;
+width: 1366px;
+height: 768px;
+}
+@font-face
+{
+  font-family: 'F77 Minecraft';
+  src: url('../fonts/F77 Minecraft.ttf');
+}
+@font-face
+{
+  font-family: 'tahoma';
+  src: url('../fonts/tahoma.ttf');
+}
+@font-face
+{
+  font-family: 'tahomabd';
+  src: url('../fonts/tahomabd.ttf');
+}
+.desktop
+{
+  position: absolute;
+  width: 1366px;
+  height: 768px;
+  margin-top: auto;
+  margin-left: auto;
+}
+.menu
+{
+  position: relative;
+  width: 1366px;
+  height: 95px;
+  top: 671px;
+  background-color: #0006FF;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #FFFFFF;
+}
+.logomenu
+{
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+.clock
+{
+  position: relative;
+  color:#FFFFFF;
+  font-family: tahoma;
+  font-size: 34px;
+  width: 87px;
+  height: 41px;
+  top: -55px;
+  left: 1257px;
+}
+.ru
+{
+  position: relative;
+  color:#FFFFFF;
+  font-family: tahoma;
+  font-size: 34px;
+  width: 39px;
+  height: 41px;
+  top: -94px;
+  left: 1194px;
+}
+.text1
+{
+  position: relative;
+  color:#FFFFFF;
+  font-family: F77 Minecraft;
+  font-size: 27px;
+  width: 705px;
+  height: 210px;
+  top: 328px;
+  right: -122px;
+}
+.app1
+{
+  position: relative;
+  width: 320px;
+  height: 292px;
+  top: -245px;
+  right: -122px;
+}
+.app2
+{
+  position: relative;
+  width: 227px;
+  height: 354px;
+  top: -383px;
+  left: 990px;
+}
